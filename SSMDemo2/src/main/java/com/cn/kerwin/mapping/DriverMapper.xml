@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.kerwin.dao.DriverMapper">
+
+
+  <insert id="insertVehicleTeamUserList" parameterType="com.cn.kerwin.entity.Driver">
+    insert into
+    vehicle_team_user (organization_id, user_id)
+    values
+    <foreach collection="organizationIdList" item="organizationId" index="index" separator=",">
+      (#{organizationId,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER})
+    </foreach>
+  </insert>
+
+
+
+  <insert id="insertVehicleTeamUserList2" parameterType="Map">
+    insert into
+    vehicle_team_user (organization_id, user_id)
+    values
+    <foreach collection="organizationIdList" item="organizationId" index="index" separator=",">
+      (#{organizationId,jdbcType=INTEGER}, #{driver.userId,jdbcType=INTEGER})
+    </foreach>
+  </insert>
+
+
+</mapper>

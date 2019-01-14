@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/SSMDemo1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SSMDemo2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SSMDemo2/src/main/java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SSMDemo2/src/main/resources" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SSMDemo2/src/main/webapp/WEB-INF/web.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SSMDemo2/src/main/webapp/index.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SSMDemo2/src/main/webapp/showUser.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SSMDemo2/src/test" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SSMDemo3/src/main/java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SSMDemo3/src/main/resources" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SSMDemo3/src/main/webapp/WEB-INF/jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SSMDemo3/src/main/webapp/WEB-INF/web.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SSMDemo3/src/main/webapp/index.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SSMDemo3/src/test" charset="GBK" />
+  </component>
+</project>
